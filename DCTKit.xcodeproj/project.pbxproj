@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24EA153E130EC22300F20BC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA153D130EC22300F20BC7 /* UIKit.framework */; };
+		24EA1540130EC22300F20BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA153F130EC22300F20BC7 /* Foundation.framework */; };
+		24EA1542130EC22300F20BC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA1541130EC22300F20BC7 /* CoreGraphics.framework */; };
+		24EA1544130EC22300F20BC7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA1543130EC22300F20BC7 /* CoreData.framework */; };
+		24EA154A130EC22300F20BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24EA1548130EC22300F20BC7 /* InfoPlist.strings */; };
+		24EA154D130EC22300F20BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA154C130EC22300F20BC7 /* main.m */; };
+		24EA1550130EC22300F20BC7 /* DCTKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA154F130EC22300F20BC7 /* DCTKitAppDelegate.m */; };
+		24EA1553130EC22300F20BC7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24EA1551130EC22300F20BC7 /* MainWindow.xib */; };
+		24EA1556130EC22300F20BC7 /* DCTKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1554130EC22300F20BC7 /* DCTKit.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24EA1539130EC22300F20BC7 /* DCTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EA153D130EC22300F20BC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24EA153F130EC22300F20BC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24EA1541130EC22300F20BC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24EA1543130EC22300F20BC7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24EA1547130EC22300F20BC7 /* DCTKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTKit-Info.plist"; sourceTree = "<group>"; };
+		24EA1549130EC22300F20BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24EA154B130EC22300F20BC7 /* DCTKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTKit-Prefix.pch"; sourceTree = "<group>"; };
+		24EA154C130EC22300F20BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24EA154E130EC22300F20BC7 /* DCTKitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTKitAppDelegate.h; sourceTree = "<group>"; };
+		24EA154F130EC22300F20BC7 /* DCTKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTKitAppDelegate.m; sourceTree = "<group>"; };
+		24EA1552130EC22300F20BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		24EA1555130EC22300F20BC7 /* DCTKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCTKit.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24EA1536130EC22300F20BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA153E130EC22300F20BC7 /* UIKit.framework in Frameworks */,
+				24EA1540130EC22300F20BC7 /* Foundation.framework in Frameworks */,
+				24EA1542130EC22300F20BC7 /* CoreGraphics.framework in Frameworks */,
+				24EA1544130EC22300F20BC7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24EA152E130EC22200F20BC7 = {
+			isa = PBXGroup;
+			children = (
+				24EA1545130EC22300F20BC7 /* DCTKit */,
+				24EA153C130EC22300F20BC7 /* Frameworks */,
+				24EA153A130EC22300F20BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24EA153A130EC22300F20BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24EA1539130EC22300F20BC7 /* DCTKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24EA153C130EC22300F20BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24EA153D130EC22300F20BC7 /* UIKit.framework */,
+				24EA153F130EC22300F20BC7 /* Foundation.framework */,
+				24EA1541130EC22300F20BC7 /* CoreGraphics.framework */,
+				24EA1543130EC22300F20BC7 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24EA1545130EC22300F20BC7 /* DCTKit */ = {
+			isa = PBXGroup;
+			children = (
+				24EA154E130EC22300F20BC7 /* DCTKitAppDelegate.h */,
+				24EA154F130EC22300F20BC7 /* DCTKitAppDelegate.m */,
+				24EA1551130EC22300F20BC7 /* MainWindow.xib */,
+				24EA1554130EC22300F20BC7 /* DCTKit.xcdatamodeld */,
+				24EA1546130EC22300F20BC7 /* Supporting Files */,
+			);
+			path = DCTKit;
+			sourceTree = "<group>";
+		};
+		24EA1546130EC22300F20BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EA1547130EC22300F20BC7 /* DCTKit-Info.plist */,
+				24EA1548130EC22300F20BC7 /* InfoPlist.strings */,
+				24EA154B130EC22300F20BC7 /* DCTKit-Prefix.pch */,
+				24EA154C130EC22300F20BC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24EA1538130EC22300F20BC7 /* DCTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EA1559130EC22300F20BC7 /* Build configuration list for PBXNativeTarget "DCTKit" */;
+			buildPhases = (
+				24EA1535130EC22300F20BC7 /* Sources */,
+				24EA1536130EC22300F20BC7 /* Frameworks */,
+				24EA1537130EC22300F20BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTKit;
+			productName = DCTKit;
+			productReference = 24EA1539130EC22300F20BC7 /* DCTKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24EA1530130EC22200F20BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24EA1533130EC22200F20BC7 /* Build configuration list for PBXProject "DCTKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24EA152E130EC22200F20BC7;
+			productRefGroup = 24EA153A130EC22300F20BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24EA1538130EC22300F20BC7 /* DCTKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24EA1537130EC22300F20BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA154A130EC22300F20BC7 /* InfoPlist.strings in Resources */,
+				24EA1553130EC22300F20BC7 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24EA1535130EC22300F20BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA154D130EC22300F20BC7 /* main.m in Sources */,
+				24EA1550130EC22300F20BC7 /* DCTKitAppDelegate.m in Sources */,
+				24EA1556130EC22300F20BC7 /* DCTKit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24EA1548130EC22300F20BC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EA1549130EC22300F20BC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24EA1551130EC22300F20BC7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EA1552130EC22300F20BC7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24EA1557130EC22300F20BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24EA1558130EC22300F20BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		24EA155A130EC22300F20BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTKit/DCTKit-Prefix.pch";
+				INFOPLIST_FILE = "DCTKit/DCTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24EA155B130EC22300F20BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTKit/DCTKit-Prefix.pch";
+				INFOPLIST_FILE = "DCTKit/DCTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24EA1533130EC22200F20BC7 /* Build configuration list for PBXProject "DCTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EA1557130EC22300F20BC7 /* Debug */,
+				24EA1558130EC22300F20BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EA1559130EC22300F20BC7 /* Build configuration list for PBXNativeTarget "DCTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EA155A130EC22300F20BC7 /* Debug */,
+				24EA155B130EC22300F20BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24EA1554130EC22300F20BC7 /* DCTKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24EA1555130EC22300F20BC7 /* DCTKit.xcdatamodel */,
+			);
+			currentVersion = 24EA1555130EC22300F20BC7 /* DCTKit.xcdatamodel */;
+			path = DCTKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24EA1530130EC22200F20BC7 /* Project object */;
+}
