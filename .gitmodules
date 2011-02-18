@@ -1,0 +1,21 @@
+[submodule "DCTConnectionController"]
+	path = DCTConnectionController
+	url = git://github.com/danielctull/DCTConnectionController.git
+[submodule "DCTFoundation"]
+	path = DCTFoundation
+	url = git://github.com/danielctull/DCTFoundation.git
+[submodule "DCTUIKit"]
+	path = DCTUIKit
+	url = git://github.com/danielctull/DCTUIKit.git
+[submodule "DTNibHook"]
+	path = DTNibHook
+	url = git://github.com/danielctull/DTNibHook.git
+[submodule "DCTCoreData"]
+	path = DCTCoreData
+	url = git://github.com/danielctull/DCTCoreData.git
+[submodule "DTResurrectionKit"]
+	path = DTResurrectionKit
+	url = git://github.com/danielctull/DTResurrectionKit.git
+[submodule "DCTiAd"]
+	path = DCTiAd
+	url = git://github.com/danielctull/DCTiAd.git
