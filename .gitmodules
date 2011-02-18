@@ -19,3 +19,6 @@
 [submodule "DCTiAd"]
 	path = DCTiAd
 	url = git://github.com/danielctull/DCTiAd.git
+[submodule "DTGridView"]
+	path = DTGridView
+	url = git://github.com/danielctull/DTGridView.git
