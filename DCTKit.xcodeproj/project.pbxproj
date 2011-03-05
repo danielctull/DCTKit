@@ -29,6 +29,9 @@
 		24A0F194131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F176131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m */; };
 		24A0F195131D91990056DDC0 /* DCTManagedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */; };
 		24A0F196131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */; };
+		24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */; };
+		24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D6132277080096098C /* DCTInstapaperConnectionController.m */; };
+		24DA88F4132277080096098C /* DCTInstapaperLoginConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D8132277080096098C /* DCTInstapaperLoginConnectionController.m */; };
 		24EA153E130EC22300F20BC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA153D130EC22300F20BC7 /* UIKit.framework */; };
 		24EA1540130EC22300F20BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA153F130EC22300F20BC7 /* Foundation.framework */; };
 		24EA1542130EC22300F20BC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA1541130EC22300F20BC7 /* CoreGraphics.framework */; };
@@ -147,6 +150,12 @@
 		24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTManagedObjectViewController.m; sourceTree = "<group>"; };
 		24A0F179131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTNiceDescription.h"; sourceTree = "<group>"; };
 		24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTNiceDescription.m"; sourceTree = "<group>"; };
+		24DA88D3132277080096098C /* DCTInstapaperAddConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperAddConnectionController.h; sourceTree = "<group>"; };
+		24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTInstapaperAddConnectionController.m; sourceTree = "<group>"; };
+		24DA88D5132277080096098C /* DCTInstapaperConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperConnectionController.h; sourceTree = "<group>"; };
+		24DA88D6132277080096098C /* DCTInstapaperConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTInstapaperConnectionController.m; sourceTree = "<group>"; };
+		24DA88D7132277080096098C /* DCTInstapaperLoginConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperLoginConnectionController.h; sourceTree = "<group>"; };
+		24DA88D8132277080096098C /* DCTInstapaperLoginConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTInstapaperLoginConnectionController.m; sourceTree = "<group>"; };
 		24EA1539130EC22300F20BC7 /* DCTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EA153D130EC22300F20BC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24EA153F130EC22300F20BC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -406,6 +415,19 @@
 			path = DataCenter;
 			sourceTree = "<group>";
 		};
+		24DA88A8132277080096098C /* DCTInstapaper */ = {
+			isa = PBXGroup;
+			children = (
+				24DA88D3132277080096098C /* DCTInstapaperAddConnectionController.h */,
+				24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */,
+				24DA88D5132277080096098C /* DCTInstapaperConnectionController.h */,
+				24DA88D6132277080096098C /* DCTInstapaperConnectionController.m */,
+				24DA88D7132277080096098C /* DCTInstapaperLoginConnectionController.h */,
+				24DA88D8132277080096098C /* DCTInstapaperLoginConnectionController.m */,
+			);
+			path = DCTInstapaper;
+			sourceTree = "<group>";
+		};
 		24EA152E130EC22200F20BC7 = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +435,7 @@
 				24EA15A5130EC31900F20BC7 /* DCTCoreData */,
 				24EA15EF130EC31900F20BC7 /* DCTFoundation */,
 				24EA162F130EC31900F20BC7 /* DCTiAd */,
+				24DA88A8132277080096098C /* DCTInstapaper */,
 				24EA165B130EC31A00F20BC7 /* DCTUIKit */,
 				2409A537130F1BAF00ED0C88 /* DTGridView */,
 				24EA16B4130EC31A00F20BC7 /* DTNibHook */,
@@ -831,6 +854,9 @@
 				24A0F194131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m in Sources */,
 				24A0F195131D91990056DDC0 /* DCTManagedObjectViewController.m in Sources */,
 				24A0F196131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m in Sources */,
+				24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */,
+				24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */,
+				24DA88F4132277080096098C /* DCTInstapaperLoginConnectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

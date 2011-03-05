@@ -25,3 +25,6 @@
 [submodule "DataCenter"]
 	path = DataCenter
 	url = git://github.com/danielctull/DataCenter.git
+[submodule "DCTInstapaper"]
+	path = DCTInstapaper
+	url = git://github.com/danielctull/DCTInstapaper.git
