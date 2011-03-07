@@ -29,6 +29,32 @@
 		24A0F194131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F176131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m */; };
 		24A0F195131D91990056DDC0 /* DCTManagedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */; };
 		24A0F196131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */; };
+		24B1166A1325352E00CA8A10 /* config in Resources */ = {isa = PBXBuildFile; fileRef = 24B116401325352E00CA8A10 /* config */; };
+		24B1166B1325352E00CA8A10 /* description in Resources */ = {isa = PBXBuildFile; fileRef = 24B116411325352E00CA8A10 /* description */; };
+		24B1166C1325352E00CA8A10 /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 24B116421325352E00CA8A10 /* HEAD */; };
+		24B1166D1325352E00CA8A10 /* applypatch-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B116441325352E00CA8A10 /* applypatch-msg.sample */; };
+		24B1166E1325352E00CA8A10 /* commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B116451325352E00CA8A10 /* commit-msg.sample */; };
+		24B1166F1325352E00CA8A10 /* post-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B116461325352E00CA8A10 /* post-commit.sample */; };
+		24B116701325352E00CA8A10 /* post-receive.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B116471325352E00CA8A10 /* post-receive.sample */; };
+		24B116711325352E00CA8A10 /* post-update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B116481325352E00CA8A10 /* post-update.sample */; };
+		24B116721325352E00CA8A10 /* pre-applypatch.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B116491325352E00CA8A10 /* pre-applypatch.sample */; };
+		24B116731325352E00CA8A10 /* pre-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B1164A1325352E00CA8A10 /* pre-commit.sample */; };
+		24B116741325352E00CA8A10 /* pre-rebase.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B1164B1325352E00CA8A10 /* pre-rebase.sample */; };
+		24B116751325352E00CA8A10 /* prepare-commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B1164C1325352E00CA8A10 /* prepare-commit-msg.sample */; };
+		24B116761325352E00CA8A10 /* update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 24B1164D1325352E00CA8A10 /* update.sample */; };
+		24B116771325352E00CA8A10 /* index in Resources */ = {isa = PBXBuildFile; fileRef = 24B1164E1325352E00CA8A10 /* index */; };
+		24B116781325352E00CA8A10 /* exclude in Resources */ = {isa = PBXBuildFile; fileRef = 24B116501325352E00CA8A10 /* exclude */; };
+		24B116791325352E00CA8A10 /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 24B116521325352E00CA8A10 /* HEAD */; };
+		24B1167A1325352E00CA8A10 /* master in Resources */ = {isa = PBXBuildFile; fileRef = 24B116551325352E00CA8A10 /* master */; };
+		24B1167B1325352E00CA8A10 /* production in Resources */ = {isa = PBXBuildFile; fileRef = 24B116561325352E00CA8A10 /* production */; };
+		24B1167C1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx in Resources */ = {isa = PBXBuildFile; fileRef = 24B1165A1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx */; };
+		24B1167D1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack in Resources */ = {isa = PBXBuildFile; fileRef = 24B1165B1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack */; };
+		24B1167E1325352E00CA8A10 /* packed-refs in Resources */ = {isa = PBXBuildFile; fileRef = 24B1165C1325352E00CA8A10 /* packed-refs */; };
+		24B1167F1325352E00CA8A10 /* master in Resources */ = {isa = PBXBuildFile; fileRef = 24B1165F1325352E00CA8A10 /* master */; };
+		24B116801325352E00CA8A10 /* production in Resources */ = {isa = PBXBuildFile; fileRef = 24B116601325352E00CA8A10 /* production */; };
+		24B116811325352E00CA8A10 /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 24B116631325352E00CA8A10 /* HEAD */; };
+		24B116821325352E00CA8A10 /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 24B116651325352E00CA8A10 /* .gitmodules */; };
+		24B116831325352E00CA8A10 /* DCTGravatarConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */; };
 		24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */; };
 		24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D6132277080096098C /* DCTInstapaperConnectionController.m */; };
 		24DA88F4132277080096098C /* DCTInstapaperLoginConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D8132277080096098C /* DCTInstapaperLoginConnectionController.m */; };
@@ -150,6 +176,33 @@
 		24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTManagedObjectViewController.m; sourceTree = "<group>"; };
 		24A0F179131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTNiceDescription.h"; sourceTree = "<group>"; };
 		24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTNiceDescription.m"; sourceTree = "<group>"; };
+		24B116401325352E00CA8A10 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
+		24B116411325352E00CA8A10 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
+		24B116421325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		24B116441325352E00CA8A10 /* applypatch-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "applypatch-msg.sample"; sourceTree = "<group>"; };
+		24B116451325352E00CA8A10 /* commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "commit-msg.sample"; sourceTree = "<group>"; };
+		24B116461325352E00CA8A10 /* post-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-commit.sample"; sourceTree = "<group>"; };
+		24B116471325352E00CA8A10 /* post-receive.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-receive.sample"; sourceTree = "<group>"; };
+		24B116481325352E00CA8A10 /* post-update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-update.sample"; sourceTree = "<group>"; };
+		24B116491325352E00CA8A10 /* pre-applypatch.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-applypatch.sample"; sourceTree = "<group>"; };
+		24B1164A1325352E00CA8A10 /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit.sample"; sourceTree = "<group>"; };
+		24B1164B1325352E00CA8A10 /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase.sample"; sourceTree = "<group>"; };
+		24B1164C1325352E00CA8A10 /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
+		24B1164D1325352E00CA8A10 /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
+		24B1164E1325352E00CA8A10 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
+		24B116501325352E00CA8A10 /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
+		24B116521325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		24B116551325352E00CA8A10 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		24B116561325352E00CA8A10 /* production */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = production; sourceTree = "<group>"; };
+		24B1165A1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx"; sourceTree = "<group>"; };
+		24B1165B1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack"; sourceTree = "<group>"; };
+		24B1165C1325352E00CA8A10 /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
+		24B1165F1325352E00CA8A10 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		24B116601325352E00CA8A10 /* production */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = production; sourceTree = "<group>"; };
+		24B116631325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		24B116651325352E00CA8A10 /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		24B116681325352E00CA8A10 /* DCTGravatarConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTGravatarConnectionController.h; sourceTree = "<group>"; };
+		24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTGravatarConnectionController.m; sourceTree = "<group>"; };
 		24DA88D3132277080096098C /* DCTInstapaperAddConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperAddConnectionController.h; sourceTree = "<group>"; };
 		24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTInstapaperAddConnectionController.m; sourceTree = "<group>"; };
 		24DA88D5132277080096098C /* DCTInstapaperConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperConnectionController.h; sourceTree = "<group>"; };
@@ -415,6 +468,176 @@
 			path = DataCenter;
 			sourceTree = "<group>";
 		};
+		24B1163D1325352E00CA8A10 /* DCTGravatar */ = {
+			isa = PBXGroup;
+			children = (
+				24B1163E1325352E00CA8A10 /* .git */,
+				24B116651325352E00CA8A10 /* .gitmodules */,
+				24B116661325352E00CA8A10 /* DCTConnectionController */,
+				24B116671325352E00CA8A10 /* DCTFoundation */,
+				24B116681325352E00CA8A10 /* DCTGravatarConnectionController.h */,
+				24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */,
+			);
+			path = DCTGravatar;
+			sourceTree = "<group>";
+		};
+		24B1163E1325352E00CA8A10 /* .git */ = {
+			isa = PBXGroup;
+			children = (
+				24B1163F1325352E00CA8A10 /* branches */,
+				24B116401325352E00CA8A10 /* config */,
+				24B116411325352E00CA8A10 /* description */,
+				24B116421325352E00CA8A10 /* HEAD */,
+				24B116431325352E00CA8A10 /* hooks */,
+				24B1164E1325352E00CA8A10 /* index */,
+				24B1164F1325352E00CA8A10 /* info */,
+				24B116511325352E00CA8A10 /* logs */,
+				24B116571325352E00CA8A10 /* objects */,
+				24B1165C1325352E00CA8A10 /* packed-refs */,
+				24B1165D1325352E00CA8A10 /* refs */,
+			);
+			path = .git;
+			sourceTree = "<group>";
+		};
+		24B1163F1325352E00CA8A10 /* branches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = branches;
+			sourceTree = "<group>";
+		};
+		24B116431325352E00CA8A10 /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				24B116441325352E00CA8A10 /* applypatch-msg.sample */,
+				24B116451325352E00CA8A10 /* commit-msg.sample */,
+				24B116461325352E00CA8A10 /* post-commit.sample */,
+				24B116471325352E00CA8A10 /* post-receive.sample */,
+				24B116481325352E00CA8A10 /* post-update.sample */,
+				24B116491325352E00CA8A10 /* pre-applypatch.sample */,
+				24B1164A1325352E00CA8A10 /* pre-commit.sample */,
+				24B1164B1325352E00CA8A10 /* pre-rebase.sample */,
+				24B1164C1325352E00CA8A10 /* prepare-commit-msg.sample */,
+				24B1164D1325352E00CA8A10 /* update.sample */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		24B1164F1325352E00CA8A10 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				24B116501325352E00CA8A10 /* exclude */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		24B116511325352E00CA8A10 /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				24B116521325352E00CA8A10 /* HEAD */,
+				24B116531325352E00CA8A10 /* refs */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		24B116531325352E00CA8A10 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				24B116541325352E00CA8A10 /* heads */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		24B116541325352E00CA8A10 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				24B116551325352E00CA8A10 /* master */,
+				24B116561325352E00CA8A10 /* production */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		24B116571325352E00CA8A10 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				24B116581325352E00CA8A10 /* info */,
+				24B116591325352E00CA8A10 /* pack */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		24B116581325352E00CA8A10 /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		24B116591325352E00CA8A10 /* pack */ = {
+			isa = PBXGroup;
+			children = (
+				24B1165A1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx */,
+				24B1165B1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack */,
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		24B1165D1325352E00CA8A10 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				24B1165E1325352E00CA8A10 /* heads */,
+				24B116611325352E00CA8A10 /* remotes */,
+				24B116641325352E00CA8A10 /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		24B1165E1325352E00CA8A10 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				24B1165F1325352E00CA8A10 /* master */,
+				24B116601325352E00CA8A10 /* production */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		24B116611325352E00CA8A10 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				24B116621325352E00CA8A10 /* origin */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		24B116621325352E00CA8A10 /* origin */ = {
+			isa = PBXGroup;
+			children = (
+				24B116631325352E00CA8A10 /* HEAD */,
+			);
+			path = origin;
+			sourceTree = "<group>";
+		};
+		24B116641325352E00CA8A10 /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
+			sourceTree = "<group>";
+		};
+		24B116661325352E00CA8A10 /* DCTConnectionController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DCTConnectionController;
+			sourceTree = "<group>";
+		};
+		24B116671325352E00CA8A10 /* DCTFoundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DCTFoundation;
+			sourceTree = "<group>";
+		};
 		24DA88A8132277080096098C /* DCTInstapaper */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +657,7 @@
 				2409A58F130F1E2200ED0C88 /* DCTConnectionController */,
 				24EA15A5130EC31900F20BC7 /* DCTCoreData */,
 				24EA15EF130EC31900F20BC7 /* DCTFoundation */,
+				24B1163D1325352E00CA8A10 /* DCTGravatar */,
 				24EA162F130EC31900F20BC7 /* DCTiAd */,
 				24DA88A8132277080096098C /* DCTInstapaper */,
 				24EA165B130EC31A00F20BC7 /* DCTUIKit */,
@@ -760,6 +984,31 @@
 			files = (
 				24EA154A130EC22300F20BC7 /* InfoPlist.strings in Resources */,
 				24EA1553130EC22300F20BC7 /* MainWindow.xib in Resources */,
+				24B1166A1325352E00CA8A10 /* config in Resources */,
+				24B1166B1325352E00CA8A10 /* description in Resources */,
+				24B1166C1325352E00CA8A10 /* HEAD in Resources */,
+				24B1166D1325352E00CA8A10 /* applypatch-msg.sample in Resources */,
+				24B1166E1325352E00CA8A10 /* commit-msg.sample in Resources */,
+				24B1166F1325352E00CA8A10 /* post-commit.sample in Resources */,
+				24B116701325352E00CA8A10 /* post-receive.sample in Resources */,
+				24B116711325352E00CA8A10 /* post-update.sample in Resources */,
+				24B116721325352E00CA8A10 /* pre-applypatch.sample in Resources */,
+				24B116731325352E00CA8A10 /* pre-commit.sample in Resources */,
+				24B116741325352E00CA8A10 /* pre-rebase.sample in Resources */,
+				24B116751325352E00CA8A10 /* prepare-commit-msg.sample in Resources */,
+				24B116761325352E00CA8A10 /* update.sample in Resources */,
+				24B116771325352E00CA8A10 /* index in Resources */,
+				24B116781325352E00CA8A10 /* exclude in Resources */,
+				24B116791325352E00CA8A10 /* HEAD in Resources */,
+				24B1167A1325352E00CA8A10 /* master in Resources */,
+				24B1167B1325352E00CA8A10 /* production in Resources */,
+				24B1167C1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx in Resources */,
+				24B1167D1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack in Resources */,
+				24B1167E1325352E00CA8A10 /* packed-refs in Resources */,
+				24B1167F1325352E00CA8A10 /* master in Resources */,
+				24B116801325352E00CA8A10 /* production in Resources */,
+				24B116811325352E00CA8A10 /* HEAD in Resources */,
+				24B116821325352E00CA8A10 /* .gitmodules in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,6 +1106,7 @@
 				24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */,
 				24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */,
 				24DA88F4132277080096098C /* DCTInstapaperLoginConnectionController.m in Sources */,
+				24B116831325352E00CA8A10 /* DCTGravatarConnectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,7 +1141,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -919,7 +1169,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;

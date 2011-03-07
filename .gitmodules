@@ -28,3 +28,6 @@
 [submodule "DCTInstapaper"]
 	path = DCTInstapaper
 	url = git://github.com/danielctull/DCTInstapaper.git
+[submodule "DCTGravatar"]
+	path = DCTGravatar
+	url = git://github.com/danielctull/DCTGravatar.git
