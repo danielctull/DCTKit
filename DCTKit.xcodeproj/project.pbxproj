@@ -16,6 +16,7 @@
 		2409A58C130F1BB000ED0C88 /* DTLabelsSnapGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2409A56B130F1BAF00ED0C88 /* DTLabelsSnapGridViewCell.m */; };
 		2409A58D130F1BB000ED0C88 /* DTSnapGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2409A56D130F1BAF00ED0C88 /* DTSnapGridView.m */; };
 		2409A58E130F1BB000ED0C88 /* DTSnapGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2409A56F130F1BAF00ED0C88 /* DTSnapGridViewCell.m */; };
+		241A232D1349155600574B99 /* libDCTUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 241A232C1349155600574B99 /* libDCTUIKit.a */; };
 		24A0F193131D91990056DDC0 /* DCTManagedObjectContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F174131D91990056DDC0 /* DCTManagedObjectContextViewController.m */; };
 		24A0F194131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F176131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m */; };
 		24A0F195131D91990056DDC0 /* DCTManagedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */; };
@@ -35,28 +36,6 @@
 		24EA1553130EC22300F20BC7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24EA1551130EC22300F20BC7 /* MainWindow.xib */; };
 		24EA1556130EC22300F20BC7 /* DCTKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1554130EC22300F20BC7 /* DCTKit.xcdatamodeld */; };
 		24EA17A2130EC31A00F20BC7 /* DCTiAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1659130EC31A00F20BC7 /* DCTiAdViewController.m */; };
-		24EA17BB130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1685130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m */; };
-		24EA17BC130EC31A00F20BC7 /* UIColor+DCTComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1687130EC31A00F20BC7 /* UIColor+DCTComponents.m */; };
-		24EA17BD130EC31A00F20BC7 /* UIColor+DCTHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1689130EC31A00F20BC7 /* UIColor+DCTHex.m */; };
-		24EA17BE130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA168B130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.m */; };
-		24EA17BF130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA168D130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.m */; };
-		24EA17C0130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA168F130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.m */; };
-		24EA17C1130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1691130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.m */; };
-		24EA17C2130EC31A00F20BC7 /* UIView+DCTLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1693130EC31A00F20BC7 /* UIView+DCTLogging.m */; };
-		24EA17C3130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1695130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.m */; };
-		24EA17C4130EC31A00F20BC7 /* UIViewController+DCTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1697130EC31A00F20BC7 /* UIViewController+DCTExtras.m */; };
-		24EA17C5130EC31A00F20BC7 /* DCTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA169A130EC31A00F20BC7 /* DCTCoreDataTableViewController.m */; };
-		24EA17C6130EC31A00F20BC7 /* DCTCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA169C130EC31A00F20BC7 /* DCTCoreDataViewController.m */; };
-		24EA17C7130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA169E130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.m */; };
-		24EA17C8130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16A0130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.m */; };
-		24EA17C9130EC31A00F20BC7 /* DCTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16A3130EC31A00F20BC7 /* DCTTabBar.m */; };
-		24EA17CA130EC31A00F20BC7 /* DCTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16A5130EC31A00F20BC7 /* DCTTabBarController.m */; };
-		24EA17CB130EC31A00F20BC7 /* DCTUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16A7130EC31A00F20BC7 /* DCTUITabBar.m */; };
-		24EA17CC130EC31A00F20BC7 /* DCTTableViewSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16AA130EC31A00F20BC7 /* DCTTableViewSectionController.m */; };
-		24EA17CD130EC31A00F20BC7 /* DCTContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16AD130EC31A00F20BC7 /* DCTContainerViewController.m */; };
-		24EA17CE130EC31A00F20BC7 /* DCTContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16AF130EC31A00F20BC7 /* DCTContentViewController.m */; };
-		24EA17CF130EC31A00F20BC7 /* DCTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16B1130EC31A00F20BC7 /* DCTTableViewController.m */; };
-		24EA17D0130EC31A00F20BC7 /* DCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16B3130EC31A00F20BC7 /* DCTViewController.m */; };
 		24EA17E9130EC31A00F20BC7 /* DTNibHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA16DD130EC31A00F20BC7 /* DTNibHook.m */; };
 		24EA1804130EC31A00F20BC7 /* DTResurrectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA170B130EC31A00F20BC7 /* DTResurrectionController.m */; };
 		24EA1805130EC31A00F20BC7 /* DTResurrector.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA170E130EC31A00F20BC7 /* DTResurrector.m */; };
@@ -97,6 +76,27 @@
 			proxyType = 2;
 			remoteGlobalIDString = 2426CF2B1348C34700412223;
 			remoteInfo = DCTConnectionControllerTests;
+		};
+		241A23261349153C00574B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241A231C1349153C00574B99 /* DCTUIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24B8EB2C134912BF007A7E2B;
+			remoteInfo = DCTUIKit;
+		};
+		241A23281349153C00574B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241A231C1349153C00574B99 /* DCTUIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24B8EB39134912BF007A7E2B;
+			remoteInfo = DCTUIKitTests;
+		};
+		241A232A1349153C00574B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241A231C1349153C00574B99 /* DCTUIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24B8EB5F13491326007A7E2B;
+			remoteInfo = DCTUIKitApp;
 		};
 		24AD38311348E3CB0077BACA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -162,6 +162,8 @@
 		2409A56D130F1BAF00ED0C88 /* DTSnapGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSnapGridView.m; sourceTree = "<group>"; };
 		2409A56E130F1BAF00ED0C88 /* DTSnapGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSnapGridViewCell.h; sourceTree = "<group>"; };
 		2409A56F130F1BAF00ED0C88 /* DTSnapGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSnapGridViewCell.m; sourceTree = "<group>"; };
+		241A231C1349153C00574B99 /* DCTUIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTUIKit.xcodeproj; path = DCTUIKit/DCTUIKit.xcodeproj; sourceTree = "<group>"; };
+		241A232C1349155600574B99 /* libDCTUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDCTUIKit.a; sourceTree = SOURCE_ROOT; };
 		24A0F173131D91990056DDC0 /* DCTManagedObjectContextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTManagedObjectContextViewController.h; sourceTree = "<group>"; };
 		24A0F174131D91990056DDC0 /* DCTManagedObjectContextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTManagedObjectContextViewController.m; sourceTree = "<group>"; };
 		24A0F175131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTManagedObjectRelationshipsViewController.h; sourceTree = "<group>"; };
@@ -195,50 +197,6 @@
 		24EA1555130EC22300F20BC7 /* DCTKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCTKit.xcdatamodel; sourceTree = "<group>"; };
 		24EA1658130EC31A00F20BC7 /* DCTiAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTiAdViewController.h; sourceTree = "<group>"; };
 		24EA1659130EC31A00F20BC7 /* DCTiAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTiAdViewController.m; sourceTree = "<group>"; };
-		24EA1684130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+DCTErrorHandling.h"; sourceTree = "<group>"; };
-		24EA1685130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+DCTErrorHandling.m"; sourceTree = "<group>"; };
-		24EA1686130EC31A00F20BC7 /* UIColor+DCTComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DCTComponents.h"; sourceTree = "<group>"; };
-		24EA1687130EC31A00F20BC7 /* UIColor+DCTComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DCTComponents.m"; sourceTree = "<group>"; };
-		24EA1688130EC31A00F20BC7 /* UIColor+DCTHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DCTHex.h"; sourceTree = "<group>"; };
-		24EA1689130EC31A00F20BC7 /* UIColor+DCTHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DCTHex.m"; sourceTree = "<group>"; };
-		24EA168A130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DCTFeatureCheck.h"; sourceTree = "<group>"; };
-		24EA168B130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DCTFeatureCheck.m"; sourceTree = "<group>"; };
-		24EA168C130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DCTSystemVersion.h"; sourceTree = "<group>"; };
-		24EA168D130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DCTSystemVersion.m"; sourceTree = "<group>"; };
-		24EA168E130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+DCTNextResponderExtensions.h"; sourceTree = "<group>"; };
-		24EA168F130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+DCTNextResponderExtensions.m"; sourceTree = "<group>"; };
-		24EA1690130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DCTExtensions.h"; sourceTree = "<group>"; };
-		24EA1691130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DCTExtensions.m"; sourceTree = "<group>"; };
-		24EA1692130EC31A00F20BC7 /* UIView+DCTLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCTLogging.h"; sourceTree = "<group>"; };
-		24EA1693130EC31A00F20BC7 /* UIView+DCTLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCTLogging.m"; sourceTree = "<group>"; };
-		24EA1694130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCTSubviewExtensions.h"; sourceTree = "<group>"; };
-		24EA1695130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCTSubviewExtensions.m"; sourceTree = "<group>"; };
-		24EA1696130EC31A00F20BC7 /* UIViewController+DCTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCTExtras.h"; sourceTree = "<group>"; };
-		24EA1697130EC31A00F20BC7 /* UIViewController+DCTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCTExtras.m"; sourceTree = "<group>"; };
-		24EA1699130EC31A00F20BC7 /* DCTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTCoreDataTableViewController.h; sourceTree = "<group>"; };
-		24EA169A130EC31A00F20BC7 /* DCTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTCoreDataTableViewController.m; sourceTree = "<group>"; };
-		24EA169B130EC31A00F20BC7 /* DCTCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTCoreDataViewController.h; sourceTree = "<group>"; };
-		24EA169C130EC31A00F20BC7 /* DCTCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTCoreDataViewController.m; sourceTree = "<group>"; };
-		24EA169D130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTFetchedResultsTableViewController.h; sourceTree = "<group>"; };
-		24EA169E130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTFetchedResultsTableViewController.m; sourceTree = "<group>"; };
-		24EA169F130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCTCoreDataViewController.h"; sourceTree = "<group>"; };
-		24EA16A0130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCTCoreDataViewController.m"; sourceTree = "<group>"; };
-		24EA16A2130EC31A00F20BC7 /* DCTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTabBar.h; sourceTree = "<group>"; };
-		24EA16A3130EC31A00F20BC7 /* DCTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTabBar.m; sourceTree = "<group>"; };
-		24EA16A4130EC31A00F20BC7 /* DCTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTabBarController.h; sourceTree = "<group>"; };
-		24EA16A5130EC31A00F20BC7 /* DCTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTabBarController.m; sourceTree = "<group>"; };
-		24EA16A6130EC31A00F20BC7 /* DCTUITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTUITabBar.h; sourceTree = "<group>"; };
-		24EA16A7130EC31A00F20BC7 /* DCTUITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTUITabBar.m; sourceTree = "<group>"; };
-		24EA16A9130EC31A00F20BC7 /* DCTTableViewSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTableViewSectionController.h; sourceTree = "<group>"; };
-		24EA16AA130EC31A00F20BC7 /* DCTTableViewSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewSectionController.m; sourceTree = "<group>"; };
-		24EA16AC130EC31A00F20BC7 /* DCTContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTContainerViewController.h; sourceTree = "<group>"; };
-		24EA16AD130EC31A00F20BC7 /* DCTContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTContainerViewController.m; sourceTree = "<group>"; };
-		24EA16AE130EC31A00F20BC7 /* DCTContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTContentViewController.h; sourceTree = "<group>"; };
-		24EA16AF130EC31A00F20BC7 /* DCTContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTContentViewController.m; sourceTree = "<group>"; };
-		24EA16B0130EC31A00F20BC7 /* DCTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTableViewController.h; sourceTree = "<group>"; };
-		24EA16B1130EC31A00F20BC7 /* DCTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewController.m; sourceTree = "<group>"; };
-		24EA16B2130EC31A00F20BC7 /* DCTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTViewController.h; sourceTree = "<group>"; };
-		24EA16B3130EC31A00F20BC7 /* DCTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTViewController.m; sourceTree = "<group>"; };
 		24EA16DC130EC31A00F20BC7 /* DTNibHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTNibHook.h; sourceTree = "<group>"; };
 		24EA16DD130EC31A00F20BC7 /* DTNibHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTNibHook.m; sourceTree = "<group>"; };
 		24EA170A130EC31A00F20BC7 /* DTResurrectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTResurrectionController.h; sourceTree = "<group>"; };
@@ -269,6 +227,7 @@
 				240568A31348D16F004FF828 /* libDCTFoundation.a in Frameworks */,
 				240567DE1348CA98004FF828 /* libDCTConnectionController.a in Frameworks */,
 				24AD38381348E3E00077BACA /* libDCTCoreData.a in Frameworks */,
+				241A232D1349155600574B99 /* libDCTUIKit.a in Frameworks */,
 				24EA180E130EC39400F20BC7 /* QuartzCore.framework in Frameworks */,
 				24EA180C130EC37900F20BC7 /* iAd.framework in Frameworks */,
 				24EA153E130EC22300F20BC7 /* UIKit.framework in Frameworks */,
@@ -284,6 +243,7 @@
 		240567741348C794004FF828 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				241A232C1349155600574B99 /* libDCTUIKit.a */,
 				24AD38371348E3E00077BACA /* libDCTCoreData.a */,
 				240568A21348D16F004FF828 /* libDCTFoundation.a */,
 				240567DD1348CA98004FF828 /* libDCTConnectionController.a */,
@@ -348,6 +308,16 @@
 			path = DTSnapGridView;
 			sourceTree = "<group>";
 		};
+		241A231D1349153C00574B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241A23271349153C00574B99 /* libDCTUIKit.a */,
+				241A23291349153C00574B99 /* DCTUIKitTests.octest */,
+				241A232B1349153C00574B99 /* DCTUIKitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		24A0F14B131D91990056DDC0 /* DataCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,9 +373,9 @@
 				2405688D1348D141004FF828 /* DCTConnectionController.xcodeproj */,
 				24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */,
 				24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */,
+				241A231C1349153C00574B99 /* DCTUIKit.xcodeproj */,
 				24EA162F130EC31900F20BC7 /* DCTiAd */,
 				24DA88A8132277080096098C /* DCTInstapaper */,
-				24EA165B130EC31A00F20BC7 /* DCTUIKit */,
 				2409A537130F1BAF00ED0C88 /* DTGridView */,
 				24EA16B4130EC31A00F20BC7 /* DTNibHook */,
 				24EA16DE130EC31A00F20BC7 /* DTResurrectionKit */,
@@ -468,97 +438,6 @@
 				24EA1659130EC31A00F20BC7 /* DCTiAdViewController.m */,
 			);
 			path = DCTiAd;
-			sourceTree = "<group>";
-		};
-		24EA165B130EC31A00F20BC7 /* DCTUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				24EA1683130EC31A00F20BC7 /* Categories */,
-				24EA1698130EC31A00F20BC7 /* Core Data Based */,
-				24EA16A1130EC31A00F20BC7 /* DCTTabBarController */,
-				24EA16A8130EC31A00F20BC7 /* Section Controller */,
-				24EA16AB130EC31A00F20BC7 /* View Controllers */,
-			);
-			path = DCTUIKit;
-			sourceTree = "<group>";
-		};
-		24EA1683130EC31A00F20BC7 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				24EA1684130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.h */,
-				24EA1685130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m */,
-				24EA1686130EC31A00F20BC7 /* UIColor+DCTComponents.h */,
-				24EA1687130EC31A00F20BC7 /* UIColor+DCTComponents.m */,
-				24EA1688130EC31A00F20BC7 /* UIColor+DCTHex.h */,
-				24EA1689130EC31A00F20BC7 /* UIColor+DCTHex.m */,
-				24EA168A130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.h */,
-				24EA168B130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.m */,
-				24EA168C130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.h */,
-				24EA168D130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.m */,
-				24EA168E130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.h */,
-				24EA168F130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.m */,
-				24EA1690130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.h */,
-				24EA1691130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.m */,
-				24EA1692130EC31A00F20BC7 /* UIView+DCTLogging.h */,
-				24EA1693130EC31A00F20BC7 /* UIView+DCTLogging.m */,
-				24EA1694130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.h */,
-				24EA1695130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.m */,
-				24EA1696130EC31A00F20BC7 /* UIViewController+DCTExtras.h */,
-				24EA1697130EC31A00F20BC7 /* UIViewController+DCTExtras.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		24EA1698130EC31A00F20BC7 /* Core Data Based */ = {
-			isa = PBXGroup;
-			children = (
-				24EA1699130EC31A00F20BC7 /* DCTCoreDataTableViewController.h */,
-				24EA169A130EC31A00F20BC7 /* DCTCoreDataTableViewController.m */,
-				24EA169B130EC31A00F20BC7 /* DCTCoreDataViewController.h */,
-				24EA169C130EC31A00F20BC7 /* DCTCoreDataViewController.m */,
-				24EA169D130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.h */,
-				24EA169E130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.m */,
-				24EA169F130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.h */,
-				24EA16A0130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.m */,
-			);
-			path = "Core Data Based";
-			sourceTree = "<group>";
-		};
-		24EA16A1130EC31A00F20BC7 /* DCTTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				24EA16A2130EC31A00F20BC7 /* DCTTabBar.h */,
-				24EA16A3130EC31A00F20BC7 /* DCTTabBar.m */,
-				24EA16A4130EC31A00F20BC7 /* DCTTabBarController.h */,
-				24EA16A5130EC31A00F20BC7 /* DCTTabBarController.m */,
-				24EA16A6130EC31A00F20BC7 /* DCTUITabBar.h */,
-				24EA16A7130EC31A00F20BC7 /* DCTUITabBar.m */,
-			);
-			path = DCTTabBarController;
-			sourceTree = "<group>";
-		};
-		24EA16A8130EC31A00F20BC7 /* Section Controller */ = {
-			isa = PBXGroup;
-			children = (
-				24EA16A9130EC31A00F20BC7 /* DCTTableViewSectionController.h */,
-				24EA16AA130EC31A00F20BC7 /* DCTTableViewSectionController.m */,
-			);
-			path = "Section Controller";
-			sourceTree = "<group>";
-		};
-		24EA16AB130EC31A00F20BC7 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				24EA16AC130EC31A00F20BC7 /* DCTContainerViewController.h */,
-				24EA16AD130EC31A00F20BC7 /* DCTContainerViewController.m */,
-				24EA16AE130EC31A00F20BC7 /* DCTContentViewController.h */,
-				24EA16AF130EC31A00F20BC7 /* DCTContentViewController.m */,
-				24EA16B0130EC31A00F20BC7 /* DCTTableViewController.h */,
-				24EA16B1130EC31A00F20BC7 /* DCTTableViewController.m */,
-				24EA16B2130EC31A00F20BC7 /* DCTViewController.h */,
-				24EA16B3130EC31A00F20BC7 /* DCTViewController.m */,
-			);
-			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		24EA16B4130EC31A00F20BC7 /* DTNibHook */ = {
@@ -647,6 +526,10 @@
 					ProductGroup = 24B8EB061348F220007A7E2B /* Products */;
 					ProjectRef = 24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */;
 				},
+				{
+					ProductGroup = 241A231D1349153C00574B99 /* Products */;
+					ProjectRef = 241A231C1349153C00574B99 /* DCTUIKit.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -682,6 +565,27 @@
 			fileType = wrapper.cfbundle;
 			path = DCTConnectionControllerTests.octest;
 			remoteRef = 2405689B1348D141004FF828 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		241A23271349153C00574B99 /* libDCTUIKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTUIKit.a;
+			remoteRef = 241A23261349153C00574B99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		241A23291349153C00574B99 /* DCTUIKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DCTUIKitTests.octest;
+			remoteRef = 241A23281349153C00574B99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		241A232B1349153C00574B99 /* DCTUIKitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DCTUIKitApp.app;
+			remoteRef = 241A232A1349153C00574B99 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		24AD38321348E3CB0077BACA /* libDCTCoreData.a */ = {
@@ -749,28 +653,6 @@
 				24EA1550130EC22300F20BC7 /* DCTKitAppDelegate.m in Sources */,
 				24EA1556130EC22300F20BC7 /* DCTKit.xcdatamodeld in Sources */,
 				24EA17A2130EC31A00F20BC7 /* DCTiAdViewController.m in Sources */,
-				24EA17BB130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m in Sources */,
-				24EA17BC130EC31A00F20BC7 /* UIColor+DCTComponents.m in Sources */,
-				24EA17BD130EC31A00F20BC7 /* UIColor+DCTHex.m in Sources */,
-				24EA17BE130EC31A00F20BC7 /* UIDevice+DCTFeatureCheck.m in Sources */,
-				24EA17BF130EC31A00F20BC7 /* UIDevice+DCTSystemVersion.m in Sources */,
-				24EA17C0130EC31A00F20BC7 /* UIResponder+DCTNextResponderExtensions.m in Sources */,
-				24EA17C1130EC31A00F20BC7 /* UITableViewCell+DCTExtensions.m in Sources */,
-				24EA17C2130EC31A00F20BC7 /* UIView+DCTLogging.m in Sources */,
-				24EA17C3130EC31A00F20BC7 /* UIView+DCTSubviewExtensions.m in Sources */,
-				24EA17C4130EC31A00F20BC7 /* UIViewController+DCTExtras.m in Sources */,
-				24EA17C5130EC31A00F20BC7 /* DCTCoreDataTableViewController.m in Sources */,
-				24EA17C6130EC31A00F20BC7 /* DCTCoreDataViewController.m in Sources */,
-				24EA17C7130EC31A00F20BC7 /* DCTFetchedResultsTableViewController.m in Sources */,
-				24EA17C8130EC31A00F20BC7 /* UIViewController+DCTCoreDataViewController.m in Sources */,
-				24EA17C9130EC31A00F20BC7 /* DCTTabBar.m in Sources */,
-				24EA17CA130EC31A00F20BC7 /* DCTTabBarController.m in Sources */,
-				24EA17CB130EC31A00F20BC7 /* DCTUITabBar.m in Sources */,
-				24EA17CC130EC31A00F20BC7 /* DCTTableViewSectionController.m in Sources */,
-				24EA17CD130EC31A00F20BC7 /* DCTContainerViewController.m in Sources */,
-				24EA17CE130EC31A00F20BC7 /* DCTContentViewController.m in Sources */,
-				24EA17CF130EC31A00F20BC7 /* DCTTableViewController.m in Sources */,
-				24EA17D0130EC31A00F20BC7 /* DCTViewController.m in Sources */,
 				24EA17E9130EC31A00F20BC7 /* DTNibHook.m in Sources */,
 				24EA1804130EC31A00F20BC7 /* DTResurrectionController.m in Sources */,
 				24EA1805130EC31A00F20BC7 /* DTResurrector.m in Sources */,
@@ -843,7 +725,12 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = DCTFoundation/;
+				HEADER_SEARCH_PATHS = (
+					DCTFoundation,
+					"DCTConnectionController/**",
+					"DCTUIKit/**",
+					"DCTGravatar/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -876,7 +763,12 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = DCTFoundation/;
+				HEADER_SEARCH_PATHS = (
+					DCTFoundation,
+					"DCTConnectionController/**",
+					"DCTUIKit/**",
+					"DCTGravatar/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
@@ -891,7 +783,7 @@
 		24EA155A130EC22300F20BC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -899,12 +791,14 @@
 				HEADER_SEARCH_PATHS = (
 					DCTFoundation/,
 					"DCTConnectionController/**",
+					"DCTUIKit/**",
+					DCTGravatar,
 				);
 				INFOPLIST_FILE = "DCTKit/DCTKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)\"/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -914,19 +808,21 @@
 		24EA155B130EC22300F20BC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCTKit/DCTKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					DCTFoundation/,
 					"DCTConnectionController/**",
+					"DCTUIKit/**",
+					DCTGravatar,
 				);
 				INFOPLIST_FILE = "DCTKit/DCTKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)\"/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
