@@ -21,7 +21,7 @@
 		24A0F195131D91990056DDC0 /* DCTManagedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */; };
 		24A0F196131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */; };
 		24AD38381348E3E00077BACA /* libDCTCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AD38371348E3E00077BACA /* libDCTCoreData.a */; };
-		24B116831325352E00CA8A10 /* DCTGravatarConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */; };
+		24B8EB201348F267007A7E2B /* libDCTGravatar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B8EB1F1348F267007A7E2B /* libDCTGravatar.a */; };
 		24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */; };
 		24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D6132277080096098C /* DCTInstapaperConnectionController.m */; };
 		24DA88F4132277080096098C /* DCTInstapaperLoginConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D8132277080096098C /* DCTInstapaperLoginConnectionController.m */; };
@@ -119,6 +119,27 @@
 			remoteGlobalIDString = 24AD37A51348E1DB0077BACA;
 			remoteInfo = DCTCoreDataApp;
 		};
+		24B8EB171348F220007A7E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24F3234F1348EDCC00C45764;
+			remoteInfo = DCTGravatar;
+		};
+		24B8EB191348F220007A7E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24F3235C1348EDCC00C45764;
+			remoteInfo = DCTGravatarTests;
+		};
+		24B8EB1B1348F220007A7E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 244306951348EE9000C4FD46;
+			remoteInfo = DCTGravatarApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -151,33 +172,8 @@
 		24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTNiceDescription.m"; sourceTree = "<group>"; };
 		24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTCoreData.xcodeproj; path = DCTCoreData/DCTCoreData.xcodeproj; sourceTree = "<group>"; };
 		24AD38371348E3E00077BACA /* libDCTCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDCTCoreData.a; sourceTree = SOURCE_ROOT; };
-		24B116401325352E00CA8A10 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
-		24B116411325352E00CA8A10 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
-		24B116421325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
-		24B116441325352E00CA8A10 /* applypatch-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "applypatch-msg.sample"; sourceTree = "<group>"; };
-		24B116451325352E00CA8A10 /* commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "commit-msg.sample"; sourceTree = "<group>"; };
-		24B116461325352E00CA8A10 /* post-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-commit.sample"; sourceTree = "<group>"; };
-		24B116471325352E00CA8A10 /* post-receive.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-receive.sample"; sourceTree = "<group>"; };
-		24B116481325352E00CA8A10 /* post-update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-update.sample"; sourceTree = "<group>"; };
-		24B116491325352E00CA8A10 /* pre-applypatch.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-applypatch.sample"; sourceTree = "<group>"; };
-		24B1164A1325352E00CA8A10 /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit.sample"; sourceTree = "<group>"; };
-		24B1164B1325352E00CA8A10 /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase.sample"; sourceTree = "<group>"; };
-		24B1164C1325352E00CA8A10 /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
-		24B1164D1325352E00CA8A10 /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
-		24B1164E1325352E00CA8A10 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
-		24B116501325352E00CA8A10 /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
-		24B116521325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
-		24B116551325352E00CA8A10 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
-		24B116561325352E00CA8A10 /* production */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = production; sourceTree = "<group>"; };
-		24B1165A1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx"; sourceTree = "<group>"; };
-		24B1165B1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack"; sourceTree = "<group>"; };
-		24B1165C1325352E00CA8A10 /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
-		24B1165F1325352E00CA8A10 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
-		24B116601325352E00CA8A10 /* production */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = production; sourceTree = "<group>"; };
-		24B116631325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
-		24B116651325352E00CA8A10 /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
-		24B116681325352E00CA8A10 /* DCTGravatarConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTGravatarConnectionController.h; sourceTree = "<group>"; };
-		24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTGravatarConnectionController.m; sourceTree = "<group>"; };
+		24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTGravatar.xcodeproj; path = DCTGravatar/DCTGravatar.xcodeproj; sourceTree = "<group>"; };
+		24B8EB1F1348F267007A7E2B /* libDCTGravatar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDCTGravatar.a; sourceTree = SOURCE_ROOT; };
 		24DA88D3132277080096098C /* DCTInstapaperAddConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperAddConnectionController.h; sourceTree = "<group>"; };
 		24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTInstapaperAddConnectionController.m; sourceTree = "<group>"; };
 		24DA88D5132277080096098C /* DCTInstapaperConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInstapaperConnectionController.h; sourceTree = "<group>"; };
@@ -269,6 +265,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B8EB201348F267007A7E2B /* libDCTGravatar.a in Frameworks */,
 				240568A31348D16F004FF828 /* libDCTFoundation.a in Frameworks */,
 				240567DE1348CA98004FF828 /* libDCTConnectionController.a in Frameworks */,
 				24AD38381348E3E00077BACA /* libDCTCoreData.a in Frameworks */,
@@ -290,6 +287,7 @@
 				24AD38371348E3E00077BACA /* libDCTCoreData.a */,
 				240568A21348D16F004FF828 /* libDCTFoundation.a */,
 				240567DD1348CA98004FF828 /* libDCTConnectionController.a */,
+				24B8EB1F1348F267007A7E2B /* libDCTGravatar.a */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -375,174 +373,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24B1163D1325352E00CA8A10 /* DCTGravatar */ = {
+		24B8EB061348F220007A7E2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24B1163E1325352E00CA8A10 /* .git */,
-				24B116651325352E00CA8A10 /* .gitmodules */,
-				24B116661325352E00CA8A10 /* DCTConnectionController */,
-				24B116671325352E00CA8A10 /* DCTFoundation */,
-				24B116681325352E00CA8A10 /* DCTGravatarConnectionController.h */,
-				24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */,
+				24B8EB181348F220007A7E2B /* libDCTGravatar.a */,
+				24B8EB1A1348F220007A7E2B /* DCTGravatarTests.octest */,
+				24B8EB1C1348F220007A7E2B /* DCTGravatarApp.app */,
 			);
-			path = DCTGravatar;
-			sourceTree = "<group>";
-		};
-		24B1163E1325352E00CA8A10 /* .git */ = {
-			isa = PBXGroup;
-			children = (
-				24B1163F1325352E00CA8A10 /* branches */,
-				24B116401325352E00CA8A10 /* config */,
-				24B116411325352E00CA8A10 /* description */,
-				24B116421325352E00CA8A10 /* HEAD */,
-				24B116431325352E00CA8A10 /* hooks */,
-				24B1164E1325352E00CA8A10 /* index */,
-				24B1164F1325352E00CA8A10 /* info */,
-				24B116511325352E00CA8A10 /* logs */,
-				24B116571325352E00CA8A10 /* objects */,
-				24B1165C1325352E00CA8A10 /* packed-refs */,
-				24B1165D1325352E00CA8A10 /* refs */,
-			);
-			path = .git;
-			sourceTree = "<group>";
-		};
-		24B1163F1325352E00CA8A10 /* branches */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = branches;
-			sourceTree = "<group>";
-		};
-		24B116431325352E00CA8A10 /* hooks */ = {
-			isa = PBXGroup;
-			children = (
-				24B116441325352E00CA8A10 /* applypatch-msg.sample */,
-				24B116451325352E00CA8A10 /* commit-msg.sample */,
-				24B116461325352E00CA8A10 /* post-commit.sample */,
-				24B116471325352E00CA8A10 /* post-receive.sample */,
-				24B116481325352E00CA8A10 /* post-update.sample */,
-				24B116491325352E00CA8A10 /* pre-applypatch.sample */,
-				24B1164A1325352E00CA8A10 /* pre-commit.sample */,
-				24B1164B1325352E00CA8A10 /* pre-rebase.sample */,
-				24B1164C1325352E00CA8A10 /* prepare-commit-msg.sample */,
-				24B1164D1325352E00CA8A10 /* update.sample */,
-			);
-			path = hooks;
-			sourceTree = "<group>";
-		};
-		24B1164F1325352E00CA8A10 /* info */ = {
-			isa = PBXGroup;
-			children = (
-				24B116501325352E00CA8A10 /* exclude */,
-			);
-			path = info;
-			sourceTree = "<group>";
-		};
-		24B116511325352E00CA8A10 /* logs */ = {
-			isa = PBXGroup;
-			children = (
-				24B116521325352E00CA8A10 /* HEAD */,
-				24B116531325352E00CA8A10 /* refs */,
-			);
-			path = logs;
-			sourceTree = "<group>";
-		};
-		24B116531325352E00CA8A10 /* refs */ = {
-			isa = PBXGroup;
-			children = (
-				24B116541325352E00CA8A10 /* heads */,
-			);
-			path = refs;
-			sourceTree = "<group>";
-		};
-		24B116541325352E00CA8A10 /* heads */ = {
-			isa = PBXGroup;
-			children = (
-				24B116551325352E00CA8A10 /* master */,
-				24B116561325352E00CA8A10 /* production */,
-			);
-			path = heads;
-			sourceTree = "<group>";
-		};
-		24B116571325352E00CA8A10 /* objects */ = {
-			isa = PBXGroup;
-			children = (
-				24B116581325352E00CA8A10 /* info */,
-				24B116591325352E00CA8A10 /* pack */,
-			);
-			path = objects;
-			sourceTree = "<group>";
-		};
-		24B116581325352E00CA8A10 /* info */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = info;
-			sourceTree = "<group>";
-		};
-		24B116591325352E00CA8A10 /* pack */ = {
-			isa = PBXGroup;
-			children = (
-				24B1165A1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.idx */,
-				24B1165B1325352E00CA8A10 /* pack-54265a6b1ce4f1452757f9b9b84521c3e42efdcc.pack */,
-			);
-			path = pack;
-			sourceTree = "<group>";
-		};
-		24B1165D1325352E00CA8A10 /* refs */ = {
-			isa = PBXGroup;
-			children = (
-				24B1165E1325352E00CA8A10 /* heads */,
-				24B116611325352E00CA8A10 /* remotes */,
-				24B116641325352E00CA8A10 /* tags */,
-			);
-			path = refs;
-			sourceTree = "<group>";
-		};
-		24B1165E1325352E00CA8A10 /* heads */ = {
-			isa = PBXGroup;
-			children = (
-				24B1165F1325352E00CA8A10 /* master */,
-				24B116601325352E00CA8A10 /* production */,
-			);
-			path = heads;
-			sourceTree = "<group>";
-		};
-		24B116611325352E00CA8A10 /* remotes */ = {
-			isa = PBXGroup;
-			children = (
-				24B116621325352E00CA8A10 /* origin */,
-			);
-			path = remotes;
-			sourceTree = "<group>";
-		};
-		24B116621325352E00CA8A10 /* origin */ = {
-			isa = PBXGroup;
-			children = (
-				24B116631325352E00CA8A10 /* HEAD */,
-			);
-			path = origin;
-			sourceTree = "<group>";
-		};
-		24B116641325352E00CA8A10 /* tags */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = tags;
-			sourceTree = "<group>";
-		};
-		24B116661325352E00CA8A10 /* DCTConnectionController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DCTConnectionController;
-			sourceTree = "<group>";
-		};
-		24B116671325352E00CA8A10 /* DCTFoundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DCTFoundation;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		24DA88A8132277080096098C /* DCTInstapaper */ = {
@@ -564,7 +402,7 @@
 				240568801348D13A004FF828 /* DCTFoundation.xcodeproj */,
 				2405688D1348D141004FF828 /* DCTConnectionController.xcodeproj */,
 				24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */,
-				24B1163D1325352E00CA8A10 /* DCTGravatar */,
+				24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */,
 				24EA162F130EC31900F20BC7 /* DCTiAd */,
 				24DA88A8132277080096098C /* DCTInstapaper */,
 				24EA165B130EC31A00F20BC7 /* DCTUIKit */,
@@ -805,6 +643,10 @@
 					ProductGroup = 240568811348D13A004FF828 /* Products */;
 					ProjectRef = 240568801348D13A004FF828 /* DCTFoundation.xcodeproj */;
 				},
+				{
+					ProductGroup = 24B8EB061348F220007A7E2B /* Products */;
+					ProjectRef = 24B8EB051348F220007A7E2B /* DCTGravatar.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -861,6 +703,27 @@
 			fileType = wrapper.application;
 			path = DCTCoreDataApp.app;
 			remoteRef = 24AD38351348E3CB0077BACA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24B8EB181348F220007A7E2B /* libDCTGravatar.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTGravatar.a;
+			remoteRef = 24B8EB171348F220007A7E2B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24B8EB1A1348F220007A7E2B /* DCTGravatarTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DCTGravatarTests.octest;
+			remoteRef = 24B8EB191348F220007A7E2B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24B8EB1C1348F220007A7E2B /* DCTGravatarApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DCTGravatarApp.app;
+			remoteRef = 24B8EB1B1348F220007A7E2B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -930,7 +793,6 @@
 				24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */,
 				24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */,
 				24DA88F4132277080096098C /* DCTInstapaperLoginConnectionController.m in Sources */,
-				24B116831325352E00CA8A10 /* DCTGravatarConnectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,7 +845,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = DCTFoundation/;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1014,7 +879,10 @@
 				HEADER_SEARCH_PATHS = DCTFoundation/;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 			};
