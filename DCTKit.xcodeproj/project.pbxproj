@@ -20,6 +20,7 @@
 		24A0F194131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F176131D91990056DDC0 /* DCTManagedObjectRelationshipsViewController.m */; };
 		24A0F195131D91990056DDC0 /* DCTManagedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */; };
 		24A0F196131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */; };
+		24AD38381348E3E00077BACA /* libDCTCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AD38371348E3E00077BACA /* libDCTCoreData.a */; };
 		24B116831325352E00CA8A10 /* DCTGravatarConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B116691325352E00CA8A10 /* DCTGravatarConnectionController.m */; };
 		24DA88F2132277080096098C /* DCTInstapaperAddConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D4132277080096098C /* DCTInstapaperAddConnectionController.m */; };
 		24DA88F3132277080096098C /* DCTInstapaperConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DA88D6132277080096098C /* DCTInstapaperConnectionController.m */; };
@@ -33,22 +34,6 @@
 		24EA1550130EC22300F20BC7 /* DCTKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA154F130EC22300F20BC7 /* DCTKitAppDelegate.m */; };
 		24EA1553130EC22300F20BC7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24EA1551130EC22300F20BC7 /* MainWindow.xib */; };
 		24EA1556130EC22300F20BC7 /* DCTKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1554130EC22300F20BC7 /* DCTKit.xcdatamodeld */; };
-		24EA1755130EC31A00F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15CF130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.m */; };
-		24EA1756130EC31A00F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15D1130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.m */; };
-		24EA1757130EC31A00F20BC7 /* NSAttributeDescription+DCTObjectCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15D4130EC31900F20BC7 /* NSAttributeDescription+DCTObjectCheck.m */; };
-		24EA1758130EC31A00F20BC7 /* NSDictionary+DCTKeyForObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15D6130EC31900F20BC7 /* NSDictionary+DCTKeyForObject.m */; };
-		24EA1759130EC31A00F20BC7 /* NSEntityDescription+DCTObjectCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15D8130EC31900F20BC7 /* NSEntityDescription+DCTObjectCheck.m */; };
-		24EA175A130EC31A00F20BC7 /* NSManagedObject+DCTAutomatedSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15DA130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSetup.m */; };
-		24EA175B130EC31A00F20BC7 /* NSManagedObject+DCTAutomatedSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15DC130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSync.m */; };
-		24EA175C130EC31A00F20BC7 /* NSArray+DCTSortDescriptors.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15DE130EC31900F20BC7 /* NSArray+DCTSortDescriptors.m */; };
-		24EA175D130EC31A00F20BC7 /* NSFetchedResultsController+DCTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15E0130EC31900F20BC7 /* NSFetchedResultsController+DCTExtras.m */; };
-		24EA175E130EC31A00F20BC7 /* NSFetchRequest+DCTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15E2130EC31900F20BC7 /* NSFetchRequest+DCTExtras.m */; };
-		24EA175F130EC31A00F20BC7 /* NSManagedObject+DCTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15E4130EC31900F20BC7 /* NSManagedObject+DCTExtras.m */; };
-		24EA1760130EC31A00F20BC7 /* NSManagedObject+DCTOrdering.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15E6130EC31900F20BC7 /* NSManagedObject+DCTOrdering.m */; };
-		24EA1761130EC31A00F20BC7 /* NSManagedObject+DCTRelatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15E8130EC31900F20BC7 /* NSManagedObject+DCTRelatedObjects.m */; };
-		24EA1762130EC31A00F20BC7 /* NSManagedObjectContext+DCTDataFetching.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15EA130EC31900F20BC7 /* NSManagedObjectContext+DCTDataFetching.m */; };
-		24EA1763130EC31A00F20BC7 /* NSManagedObjectContext+DCTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15EC130EC31900F20BC7 /* NSManagedObjectContext+DCTExtras.m */; };
-		24EA1764130EC31A00F20BC7 /* NSPredicate+DCTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA15EE130EC31900F20BC7 /* NSPredicate+DCTExtras.m */; };
 		24EA17A2130EC31A00F20BC7 /* DCTiAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1659130EC31A00F20BC7 /* DCTiAdViewController.m */; };
 		24EA17BB130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1685130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m */; };
 		24EA17BC130EC31A00F20BC7 /* UIColor+DCTComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA1687130EC31A00F20BC7 /* UIColor+DCTComponents.m */; };
@@ -113,6 +98,27 @@
 			remoteGlobalIDString = 2426CF2B1348C34700412223;
 			remoteInfo = DCTConnectionControllerTests;
 		};
+		24AD38311348E3CB0077BACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24F9A4EE1348DD8700D4FC9D;
+			remoteInfo = DCTCoreData;
+		};
+		24AD38331348E3CB0077BACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24F9A4FB1348DD8700D4FC9D;
+			remoteInfo = DCTCoreDataTests;
+		};
+		24AD38351348E3CB0077BACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24AD37A51348E1DB0077BACA;
+			remoteInfo = DCTCoreDataApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +149,8 @@
 		24A0F178131D91990056DDC0 /* DCTManagedObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTManagedObjectViewController.m; sourceTree = "<group>"; };
 		24A0F179131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTNiceDescription.h"; sourceTree = "<group>"; };
 		24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTNiceDescription.m"; sourceTree = "<group>"; };
+		24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTCoreData.xcodeproj; path = DCTCoreData/DCTCoreData.xcodeproj; sourceTree = "<group>"; };
+		24AD38371348E3E00077BACA /* libDCTCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDCTCoreData.a; sourceTree = SOURCE_ROOT; };
 		24B116401325352E00CA8A10 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
 		24B116411325352E00CA8A10 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
 		24B116421325352E00CA8A10 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
@@ -189,38 +197,6 @@
 		24EA154F130EC22300F20BC7 /* DCTKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTKitAppDelegate.m; sourceTree = "<group>"; };
 		24EA1552130EC22300F20BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		24EA1555130EC22300F20BC7 /* DCTKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCTKit.xcdatamodel; sourceTree = "<group>"; };
-		24EA15CE130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+DCTAsynchronousDataFetching.h"; sourceTree = "<group>"; };
-		24EA15CF130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+DCTAsynchronousDataFetching.m"; sourceTree = "<group>"; };
-		24EA15D0130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+DCTAsynchronousTasks.h"; sourceTree = "<group>"; };
-		24EA15D1130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+DCTAsynchronousTasks.m"; sourceTree = "<group>"; };
-		24EA15D3130EC31900F20BC7 /* NSAttributeDescription+DCTObjectCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+DCTObjectCheck.h"; sourceTree = "<group>"; };
-		24EA15D4130EC31900F20BC7 /* NSAttributeDescription+DCTObjectCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributeDescription+DCTObjectCheck.m"; sourceTree = "<group>"; };
-		24EA15D5130EC31900F20BC7 /* NSDictionary+DCTKeyForObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DCTKeyForObject.h"; sourceTree = "<group>"; };
-		24EA15D6130EC31900F20BC7 /* NSDictionary+DCTKeyForObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DCTKeyForObject.m"; sourceTree = "<group>"; };
-		24EA15D7130EC31900F20BC7 /* NSEntityDescription+DCTObjectCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+DCTObjectCheck.h"; sourceTree = "<group>"; };
-		24EA15D8130EC31900F20BC7 /* NSEntityDescription+DCTObjectCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+DCTObjectCheck.m"; sourceTree = "<group>"; };
-		24EA15D9130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTAutomatedSetup.h"; sourceTree = "<group>"; };
-		24EA15DA130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTAutomatedSetup.m"; sourceTree = "<group>"; };
-		24EA15DB130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTAutomatedSync.h"; sourceTree = "<group>"; };
-		24EA15DC130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTAutomatedSync.m"; sourceTree = "<group>"; };
-		24EA15DD130EC31900F20BC7 /* NSArray+DCTSortDescriptors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DCTSortDescriptors.h"; sourceTree = "<group>"; };
-		24EA15DE130EC31900F20BC7 /* NSArray+DCTSortDescriptors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DCTSortDescriptors.m"; sourceTree = "<group>"; };
-		24EA15DF130EC31900F20BC7 /* NSFetchedResultsController+DCTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchedResultsController+DCTExtras.h"; sourceTree = "<group>"; };
-		24EA15E0130EC31900F20BC7 /* NSFetchedResultsController+DCTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchedResultsController+DCTExtras.m"; sourceTree = "<group>"; };
-		24EA15E1130EC31900F20BC7 /* NSFetchRequest+DCTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+DCTExtras.h"; sourceTree = "<group>"; };
-		24EA15E2130EC31900F20BC7 /* NSFetchRequest+DCTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchRequest+DCTExtras.m"; sourceTree = "<group>"; };
-		24EA15E3130EC31900F20BC7 /* NSManagedObject+DCTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTExtras.h"; sourceTree = "<group>"; };
-		24EA15E4130EC31900F20BC7 /* NSManagedObject+DCTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTExtras.m"; sourceTree = "<group>"; };
-		24EA15E5130EC31900F20BC7 /* NSManagedObject+DCTOrdering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTOrdering.h"; sourceTree = "<group>"; };
-		24EA15E6130EC31900F20BC7 /* NSManagedObject+DCTOrdering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTOrdering.m"; sourceTree = "<group>"; };
-		24EA15E7130EC31900F20BC7 /* NSManagedObject+DCTRelatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DCTRelatedObjects.h"; sourceTree = "<group>"; };
-		24EA15E8130EC31900F20BC7 /* NSManagedObject+DCTRelatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DCTRelatedObjects.m"; sourceTree = "<group>"; };
-		24EA15E9130EC31900F20BC7 /* NSManagedObjectContext+DCTDataFetching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+DCTDataFetching.h"; sourceTree = "<group>"; };
-		24EA15EA130EC31900F20BC7 /* NSManagedObjectContext+DCTDataFetching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+DCTDataFetching.m"; sourceTree = "<group>"; };
-		24EA15EB130EC31900F20BC7 /* NSManagedObjectContext+DCTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+DCTExtras.h"; sourceTree = "<group>"; };
-		24EA15EC130EC31900F20BC7 /* NSManagedObjectContext+DCTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+DCTExtras.m"; sourceTree = "<group>"; };
-		24EA15ED130EC31900F20BC7 /* NSPredicate+DCTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+DCTExtras.h"; sourceTree = "<group>"; };
-		24EA15EE130EC31900F20BC7 /* NSPredicate+DCTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+DCTExtras.m"; sourceTree = "<group>"; };
 		24EA1658130EC31A00F20BC7 /* DCTiAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTiAdViewController.h; sourceTree = "<group>"; };
 		24EA1659130EC31A00F20BC7 /* DCTiAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTiAdViewController.m; sourceTree = "<group>"; };
 		24EA1684130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+DCTErrorHandling.h"; sourceTree = "<group>"; };
@@ -295,6 +271,7 @@
 			files = (
 				240568A31348D16F004FF828 /* libDCTFoundation.a in Frameworks */,
 				240567DE1348CA98004FF828 /* libDCTConnectionController.a in Frameworks */,
+				24AD38381348E3E00077BACA /* libDCTCoreData.a in Frameworks */,
 				24EA180E130EC39400F20BC7 /* QuartzCore.framework in Frameworks */,
 				24EA180C130EC37900F20BC7 /* iAd.framework in Frameworks */,
 				24EA153E130EC22300F20BC7 /* UIKit.framework in Frameworks */,
@@ -310,6 +287,7 @@
 		240567741348C794004FF828 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				24AD38371348E3E00077BACA /* libDCTCoreData.a */,
 				240568A21348D16F004FF828 /* libDCTFoundation.a */,
 				240567DD1348CA98004FF828 /* libDCTConnectionController.a */,
 			);
@@ -385,6 +363,16 @@
 				24A0F17A131D91990056DDC0 /* NSManagedObject+DCTNiceDescription.m */,
 			);
 			path = DataCenter;
+			sourceTree = "<group>";
+		};
+		24AD38281348E3CB0077BACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AD38321348E3CB0077BACA /* libDCTCoreData.a */,
+				24AD38341348E3CB0077BACA /* DCTCoreDataTests.octest */,
+				24AD38361348E3CB0077BACA /* DCTCoreDataApp.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		24B1163D1325352E00CA8A10 /* DCTGravatar */ = {
@@ -575,7 +563,7 @@
 			children = (
 				240568801348D13A004FF828 /* DCTFoundation.xcodeproj */,
 				2405688D1348D141004FF828 /* DCTConnectionController.xcodeproj */,
-				24EA15A5130EC31900F20BC7 /* DCTCoreData */,
+				24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */,
 				24B1163D1325352E00CA8A10 /* DCTGravatar */,
 				24EA162F130EC31900F20BC7 /* DCTiAd */,
 				24DA88A8132277080096098C /* DCTInstapaper */,
@@ -633,61 +621,6 @@
 				24EA154C130EC22300F20BC7 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		24EA15A5130EC31900F20BC7 /* DCTCoreData */ = {
-			isa = PBXGroup;
-			children = (
-				24EA15CD130EC31900F20BC7 /* Asynchronous */,
-				24EA15D2130EC31900F20BC7 /* Automated Setup */,
-				24EA15DD130EC31900F20BC7 /* NSArray+DCTSortDescriptors.h */,
-				24EA15DE130EC31900F20BC7 /* NSArray+DCTSortDescriptors.m */,
-				24EA15DF130EC31900F20BC7 /* NSFetchedResultsController+DCTExtras.h */,
-				24EA15E0130EC31900F20BC7 /* NSFetchedResultsController+DCTExtras.m */,
-				24EA15E1130EC31900F20BC7 /* NSFetchRequest+DCTExtras.h */,
-				24EA15E2130EC31900F20BC7 /* NSFetchRequest+DCTExtras.m */,
-				24EA15E3130EC31900F20BC7 /* NSManagedObject+DCTExtras.h */,
-				24EA15E4130EC31900F20BC7 /* NSManagedObject+DCTExtras.m */,
-				24EA15E5130EC31900F20BC7 /* NSManagedObject+DCTOrdering.h */,
-				24EA15E6130EC31900F20BC7 /* NSManagedObject+DCTOrdering.m */,
-				24EA15E7130EC31900F20BC7 /* NSManagedObject+DCTRelatedObjects.h */,
-				24EA15E8130EC31900F20BC7 /* NSManagedObject+DCTRelatedObjects.m */,
-				24EA15E9130EC31900F20BC7 /* NSManagedObjectContext+DCTDataFetching.h */,
-				24EA15EA130EC31900F20BC7 /* NSManagedObjectContext+DCTDataFetching.m */,
-				24EA15EB130EC31900F20BC7 /* NSManagedObjectContext+DCTExtras.h */,
-				24EA15EC130EC31900F20BC7 /* NSManagedObjectContext+DCTExtras.m */,
-				24EA15ED130EC31900F20BC7 /* NSPredicate+DCTExtras.h */,
-				24EA15EE130EC31900F20BC7 /* NSPredicate+DCTExtras.m */,
-			);
-			path = DCTCoreData;
-			sourceTree = "<group>";
-		};
-		24EA15CD130EC31900F20BC7 /* Asynchronous */ = {
-			isa = PBXGroup;
-			children = (
-				24EA15CE130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.h */,
-				24EA15CF130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.m */,
-				24EA15D0130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.h */,
-				24EA15D1130EC31900F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.m */,
-			);
-			path = Asynchronous;
-			sourceTree = "<group>";
-		};
-		24EA15D2130EC31900F20BC7 /* Automated Setup */ = {
-			isa = PBXGroup;
-			children = (
-				24EA15D3130EC31900F20BC7 /* NSAttributeDescription+DCTObjectCheck.h */,
-				24EA15D4130EC31900F20BC7 /* NSAttributeDescription+DCTObjectCheck.m */,
-				24EA15D5130EC31900F20BC7 /* NSDictionary+DCTKeyForObject.h */,
-				24EA15D6130EC31900F20BC7 /* NSDictionary+DCTKeyForObject.m */,
-				24EA15D7130EC31900F20BC7 /* NSEntityDescription+DCTObjectCheck.h */,
-				24EA15D8130EC31900F20BC7 /* NSEntityDescription+DCTObjectCheck.m */,
-				24EA15D9130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSetup.h */,
-				24EA15DA130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSetup.m */,
-				24EA15DB130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSync.h */,
-				24EA15DC130EC31900F20BC7 /* NSManagedObject+DCTAutomatedSync.m */,
-			);
-			path = "Automated Setup";
 			sourceTree = "<group>";
 		};
 		24EA162F130EC31900F20BC7 /* DCTiAd */ = {
@@ -865,6 +798,10 @@
 					ProjectRef = 2405688D1348D141004FF828 /* DCTConnectionController.xcodeproj */;
 				},
 				{
+					ProductGroup = 24AD38281348E3CB0077BACA /* Products */;
+					ProjectRef = 24AD38271348E3CB0077BACA /* DCTCoreData.xcodeproj */;
+				},
+				{
 					ProductGroup = 240568811348D13A004FF828 /* Products */;
 					ProjectRef = 240568801348D13A004FF828 /* DCTFoundation.xcodeproj */;
 				},
@@ -905,6 +842,27 @@
 			remoteRef = 2405689B1348D141004FF828 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		24AD38321348E3CB0077BACA /* libDCTCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTCoreData.a;
+			remoteRef = 24AD38311348E3CB0077BACA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24AD38341348E3CB0077BACA /* DCTCoreDataTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DCTCoreDataTests.octest;
+			remoteRef = 24AD38331348E3CB0077BACA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24AD38361348E3CB0077BACA /* DCTCoreDataApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DCTCoreDataApp.app;
+			remoteRef = 24AD38351348E3CB0077BACA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -927,22 +885,6 @@
 				24EA154D130EC22300F20BC7 /* main.m in Sources */,
 				24EA1550130EC22300F20BC7 /* DCTKitAppDelegate.m in Sources */,
 				24EA1556130EC22300F20BC7 /* DCTKit.xcdatamodeld in Sources */,
-				24EA1755130EC31A00F20BC7 /* NSManagedObjectContext+DCTAsynchronousDataFetching.m in Sources */,
-				24EA1756130EC31A00F20BC7 /* NSManagedObjectContext+DCTAsynchronousTasks.m in Sources */,
-				24EA1757130EC31A00F20BC7 /* NSAttributeDescription+DCTObjectCheck.m in Sources */,
-				24EA1758130EC31A00F20BC7 /* NSDictionary+DCTKeyForObject.m in Sources */,
-				24EA1759130EC31A00F20BC7 /* NSEntityDescription+DCTObjectCheck.m in Sources */,
-				24EA175A130EC31A00F20BC7 /* NSManagedObject+DCTAutomatedSetup.m in Sources */,
-				24EA175B130EC31A00F20BC7 /* NSManagedObject+DCTAutomatedSync.m in Sources */,
-				24EA175C130EC31A00F20BC7 /* NSArray+DCTSortDescriptors.m in Sources */,
-				24EA175D130EC31A00F20BC7 /* NSFetchedResultsController+DCTExtras.m in Sources */,
-				24EA175E130EC31A00F20BC7 /* NSFetchRequest+DCTExtras.m in Sources */,
-				24EA175F130EC31A00F20BC7 /* NSManagedObject+DCTExtras.m in Sources */,
-				24EA1760130EC31A00F20BC7 /* NSManagedObject+DCTOrdering.m in Sources */,
-				24EA1761130EC31A00F20BC7 /* NSManagedObject+DCTRelatedObjects.m in Sources */,
-				24EA1762130EC31A00F20BC7 /* NSManagedObjectContext+DCTDataFetching.m in Sources */,
-				24EA1763130EC31A00F20BC7 /* NSManagedObjectContext+DCTExtras.m in Sources */,
-				24EA1764130EC31A00F20BC7 /* NSPredicate+DCTExtras.m in Sources */,
 				24EA17A2130EC31A00F20BC7 /* DCTiAdViewController.m in Sources */,
 				24EA17BB130EC31A00F20BC7 /* UIAlertView+DCTErrorHandling.m in Sources */,
 				24EA17BC130EC31A00F20BC7 /* UIColor+DCTComponents.m in Sources */,
