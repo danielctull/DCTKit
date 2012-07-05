@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2435B54115A5CD3800F38962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2435B54015A5CD3800F38962 /* Foundation.framework */; };
+		2435B54615A5CD3800F38962 /* DCTKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2435B54515A5CD3800F38962 /* DCTKit.h */; };
+		2435B54815A5CD3800F38962 /* DCTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2435B54715A5CD3800F38962 /* DCTKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2435B53B15A5CD3800F38962 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				2435B54615A5CD3800F38962 /* DCTKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2435B53D15A5CD3800F38962 /* libDCTKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2435B54015A5CD3800F38962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2435B54415A5CD3800F38962 /* DCTKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTKit-Prefix.pch"; sourceTree = "<group>"; };
+		2435B54515A5CD3800F38962 /* DCTKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTKit.h; sourceTree = "<group>"; };
+		2435B54715A5CD3800F38962 /* DCTKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2435B53A15A5CD3800F38962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2435B54115A5CD3800F38962 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2435B53215A5CD3800F38962 = {
+			isa = PBXGroup;
+			children = (
+				2435B54215A5CD3800F38962 /* DCTKit */,
+				2435B53F15A5CD3800F38962 /* Frameworks */,
+				2435B53E15A5CD3800F38962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2435B53E15A5CD3800F38962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2435B53D15A5CD3800F38962 /* libDCTKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2435B53F15A5CD3800F38962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2435B54015A5CD3800F38962 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2435B54215A5CD3800F38962 /* DCTKit */ = {
+			isa = PBXGroup;
+			children = (
+				2435B54515A5CD3800F38962 /* DCTKit.h */,
+				2435B54715A5CD3800F38962 /* DCTKit.m */,
+				2435B54315A5CD3800F38962 /* Supporting Files */,
+			);
+			path = DCTKit;
+			sourceTree = "<group>";
+		};
+		2435B54315A5CD3800F38962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2435B54415A5CD3800F38962 /* DCTKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2435B53C15A5CD3800F38962 /* DCTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2435B54B15A5CD3800F38962 /* Build configuration list for PBXNativeTarget "DCTKit" */;
+			buildPhases = (
+				2435B53915A5CD3800F38962 /* Sources */,
+				2435B53A15A5CD3800F38962 /* Frameworks */,
+				2435B53B15A5CD3800F38962 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTKit;
+			productName = DCTKit;
+			productReference = 2435B53D15A5CD3800F38962 /* libDCTKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2435B53415A5CD3800F38962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 2435B53715A5CD3800F38962 /* Build configuration list for PBXProject "DCTKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2435B53215A5CD3800F38962;
+			productRefGroup = 2435B53E15A5CD3800F38962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2435B53C15A5CD3800F38962 /* DCTKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2435B53915A5CD3800F38962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2435B54815A5CD3800F38962 /* DCTKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2435B54915A5CD3800F38962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2435B54A15A5CD3800F38962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2435B54C15A5CD3800F38962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DCTKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTKit/DCTKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2435B54D15A5CD3800F38962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DCTKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTKit/DCTKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2435B53715A5CD3800F38962 /* Build configuration list for PBXProject "DCTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2435B54915A5CD3800F38962 /* Debug */,
+				2435B54A15A5CD3800F38962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2435B54B15A5CD3800F38962 /* Build configuration list for PBXNativeTarget "DCTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2435B54C15A5CD3800F38962 /* Debug */,
+				2435B54D15A5CD3800F38962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2435B53415A5CD3800F38962 /* Project object */;
+}
