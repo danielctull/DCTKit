@@ -1,0 +1,21 @@
+[submodule "DCTCoreData"]
+	path = DCTCoreData
+	url = git://github.com/danielctull/DCTCoreData.git
+[submodule "DCTConnectionController"]
+	path = DCTConnectionController
+	url = git://github.com/danielctull/DCTConnectionController.git
+[submodule "DCTFoundation"]
+	path = DCTFoundation
+	url = git://github.com/danielctull/DCTFoundation.git
+[submodule "DCTUIKit"]
+	path = DCTUIKit
+	url = git://github.com/danielctull/DCTUIKit.git
+[submodule "DCTCoreDataStack"]
+	path = DCTCoreDataStack
+	url = git://github.com/danielctull/DCTCoreDataStack.git
+[submodule "DCTTextFieldValidator"]
+	path = DCTTextFieldValidator
+	url = git://github.com/danielctull/DCTTextFieldValidator.git
+[submodule "DCTImageCache"]
+	path = DCTImageCache
+	url = git://github.com/danielctull/DCTImageCache.git
