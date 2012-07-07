@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24036FAF15A85C8B00644C6D /* libDCTImageSizing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24036FAA15A85C7F00644C6D /* libDCTImageSizing.a */; };
 		2435B54115A5CD3800F38962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2435B54015A5CD3800F38962 /* Foundation.framework */; };
 		2435B54615A5CD3800F38962 /* DCTKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2435B54515A5CD3800F38962 /* DCTKit.h */; };
 		2435B54815A5CD3800F38962 /* DCTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2435B54715A5CD3800F38962 /* DCTKit.m */; };
@@ -20,6 +21,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		24036FA915A85C7F00644C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24036F9F15A85C7F00644C6D /* DCTImageSizing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24BE272F15A8373F00161A59;
+			remoteInfo = DCTImageSizing;
+		};
+		24036FAB15A85C7F00644C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24036F9F15A85C7F00644C6D /* DCTImageSizing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24BE274015A8373F00161A59;
+			remoteInfo = DCTImageSizingTests;
+		};
+		24036FAD15A85C7F00644C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24036F9F15A85C7F00644C6D /* DCTImageSizing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24036F4A15A844F900644C6D;
+			remoteInfo = DCTImageSizingDemo;
+		};
 		2435B55615A5CF0700F38962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2435B54E15A5CF0700F38962 /* DCTConnectionController.xcodeproj */;
@@ -141,6 +163,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24036F9F15A85C7F00644C6D /* DCTImageSizing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTImageSizing.xcodeproj; path = DCTImageSizing/DCTImageSizing.xcodeproj; sourceTree = "<group>"; };
 		2435B53D15A5CD3800F38962 /* libDCTKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2435B54015A5CD3800F38962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2435B54415A5CD3800F38962 /* DCTKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -165,6 +188,7 @@
 				2435B59815A5CF3700F38962 /* libDCTCoreDataStack.a in Frameworks */,
 				2435B59915A5CF3700F38962 /* libDCTFoundation.a in Frameworks */,
 				2435B5B615A5D05D00F38962 /* libDCTImageCache.a in Frameworks */,
+				24036FAF15A85C8B00644C6D /* libDCTImageSizing.a in Frameworks */,
 				2435B59A15A5CF3700F38962 /* libDCTTextFieldValidator.a in Frameworks */,
 				2435B59B15A5CF3700F38962 /* libDCTUIKit.a in Frameworks */,
 				2435B54115A5CD3800F38962 /* Foundation.framework in Frameworks */,
@@ -174,6 +198,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24036FA015A85C7F00644C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24036FAA15A85C7F00644C6D /* libDCTImageSizing.a */,
+				24036FAC15A85C7F00644C6D /* DCTImageSizingTests.octest */,
+				24036FAE15A85C7F00644C6D /* DCTImageSizingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2435B53215A5CD3800F38962 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +219,7 @@
 				2435B56615A5CF1300F38962 /* DCTCoreDataStack.xcodeproj */,
 				2435B57215A5CF1800F38962 /* DCTFoundation.xcodeproj */,
 				2435B5A615A5D05600F38962 /* DCTImageCache.xcodeproj */,
+				24036F9F15A85C7F00644C6D /* DCTImageSizing.xcodeproj */,
 				2435B57E15A5CF1F00F38962 /* DCTTextFieldValidator.xcodeproj */,
 				2435B58A15A5CF2600F38962 /* DCTUIKit.xcodeproj */,
 			);
@@ -349,6 +384,10 @@
 					ProjectRef = 2435B5A615A5D05600F38962 /* DCTImageCache.xcodeproj */;
 				},
 				{
+					ProductGroup = 24036FA015A85C7F00644C6D /* Products */;
+					ProjectRef = 24036F9F15A85C7F00644C6D /* DCTImageSizing.xcodeproj */;
+				},
+				{
 					ProductGroup = 2435B57F15A5CF1F00F38962 /* Products */;
 					ProjectRef = 2435B57E15A5CF1F00F38962 /* DCTTextFieldValidator.xcodeproj */;
 				},
@@ -365,6 +404,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		24036FAA15A85C7F00644C6D /* libDCTImageSizing.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTImageSizing.a;
+			remoteRef = 24036FA915A85C7F00644C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24036FAC15A85C7F00644C6D /* DCTImageSizingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DCTImageSizingTests.octest;
+			remoteRef = 24036FAB15A85C7F00644C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24036FAE15A85C7F00644C6D /* DCTImageSizingDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DCTImageSizingDemo.app;
+			remoteRef = 24036FAD15A85C7F00644C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2435B55715A5CF0700F38962 /* libDCTConnectionController.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -569,6 +629,7 @@
 				2435B54D15A5CD3800F38962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

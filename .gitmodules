@@ -19,3 +19,6 @@
 [submodule "DCTImageCache"]
 	path = DCTImageCache
 	url = git://github.com/danielctull/DCTImageCache.git
+[submodule "DCTImageSizing"]
+	path = DCTImageSizing
+	url = git://github.com/danielctull/DCTImageSizing.git
