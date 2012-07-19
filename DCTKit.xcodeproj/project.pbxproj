@@ -21,6 +21,7 @@
 		24700BBD15B83DFD00FA5843 /* libDCTTableViewDataSources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24700BA715B83DA600FA5843 /* libDCTTableViewDataSources.a */; };
 		24700BBE15B83E0900FA5843 /* DCTTableViewDataSources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24700BAB15B83DA600FA5843 /* DCTTableViewDataSources.bundle */; };
 		24700C4E15B840C100FA5843 /* libDCTNetworkActivityIndicatorController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24700C4B15B840B500FA5843 /* libDCTNetworkActivityIndicatorController.a */; };
+		24B9689515B88701009F142C /* DCTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9689415B88701009F142C /* DCTKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +241,8 @@
 		24700BB715B83DCF00FA5843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24700BB915B83DCF00FA5843 /* DCTKitBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTKitBundle-Prefix.pch"; sourceTree = "<group>"; };
 		24700C4215B840B500FA5843 /* DCTNetworkActivityIndicatorController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTNetworkActivityIndicatorController.xcodeproj; path = DCTNetworkActivityIndicatorController/DCTNetworkActivityIndicatorController.xcodeproj; sourceTree = "<group>"; };
+		24B9689315B88701009F142C /* DCTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTKit.h; sourceTree = "<group>"; };
+		24B9689415B88701009F142C /* DCTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +288,7 @@
 		2435B53215A5CD3800F38962 = {
 			isa = PBXGroup;
 			children = (
+				24B9689215B88701009F142C /* DCTKit */,
 				24700BB315B83DCF00FA5843 /* DCTKitBundle */,
 				2435B53F15A5CD3800F38962 /* Frameworks */,
 				2435B53E15A5CD3800F38962 /* Products */,
@@ -421,6 +425,15 @@
 				24700C4D15B840B500FA5843 /* DCTNetworkActivityIndicatorControllerTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		24B9689215B88701009F142C /* DCTKit */ = {
+			isa = PBXGroup;
+			children = (
+				24B9689315B88701009F142C /* DCTKit.h */,
+				24B9689415B88701009F142C /* DCTKit.m */,
+			);
+			path = DCTKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -732,6 +745,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B9689515B88701009F142C /* DCTKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
