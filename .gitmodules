@@ -22,3 +22,6 @@
 [submodule "DCTImageSizing"]
 	path = DCTImageSizing
 	url = git://github.com/danielctull/DCTImageSizing.git
+[submodule "DCTTableViewDataSources"]
+	path = DCTTableViewDataSources
+	url = git://github.com/danielctull/DCTTableViewDataSources.git
