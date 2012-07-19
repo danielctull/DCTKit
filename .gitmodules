@@ -25,3 +25,6 @@
 [submodule "DCTTableViewDataSources"]
 	path = DCTTableViewDataSources
 	url = git://github.com/danielctull/DCTTableViewDataSources.git
+[submodule "DCTNetworkActivityIndicatorController"]
+	path = DCTNetworkActivityIndicatorController
+	url = git://github.com/danielctull/DCTNetworkActivityIndicatorController.git
